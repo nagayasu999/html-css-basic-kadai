@@ -1,18 +1,16 @@
 :root {
   font-size: 20px;
+}
 body {
   text-align: center;
   font-family: "Arial", "Meiryo", sans-serif;
 }
 h1 {
   .google-fonts 
-    // <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 100 to 700
-    .josefin-sans-<uniquifier> 
-      font-family: "Josefin Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   font-size: 2rem;
   border-bottom: solid 3px rgb(115, 115, 114);
   text-shadow: 1px 1px 2px gray;
